@@ -1,0 +1,5 @@
+osx_image: xcode7.3.1
+language: objective-c
+
+script: xcodebuild -project FoodTracker.xcodeproj -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
